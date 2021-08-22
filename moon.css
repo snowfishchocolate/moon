@@ -85,7 +85,7 @@ body .container .circle {
 }
 
 body .container .circle .huge {
-  background-image: url("../image/包裝.png");
+  background-image: url("./image/包裝.png");
   background-size: 80%;
   -webkit-filter: drop-shadow(2px 5px 10px #585555);
           filter: drop-shadow(2px 5px 10px #585555);
@@ -114,7 +114,7 @@ body .container .circle .big {
   background-position: center;
   background-size: 90%;
   background-repeat: no-repeat;
-  background-image: url("../image/mooncake.png");
+  background-image: url("/image/mooncake.png");
   display: none;
   position: relative;
 }
@@ -132,14 +132,14 @@ body .container .circle .small {
   background-position: center;
   background-size: 90%;
   background-repeat: no-repeat;
-  background-image: url("../image/mooncake 切開.png");
+  background-image: url("/image/mooncake 切開.png");
   display: none;
 }
 
 body .container .circle .small .crumbs {
   width: 200px;
   height: 200px;
-  background-image: url("../image/crumbs.png");
+  background-image: url("/image/crumbs.png");
   background-size: 85%;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,7 +159,7 @@ body .container .circle .letter {
   left: 40%;
   top: 53%;
   z-index: 10;
-  background-image: url("../image/letter.png");
+  background-image: url("/image/letter.png");
   background-color: transparent;
   border: 0px;
   display: none;
@@ -172,7 +172,7 @@ body .container .circle .letter:hover {
 }
 
 body .container #exampleModal .modal-dialog .modal-content .modal-body {
-  background-image: url("../image/PNG/中秋節.png");
+  background-image: url("/image/PNG/中秋節.png");
   background-size: cover;
   width: 500px;
   height: 500px;
@@ -206,7 +206,7 @@ body .container #exampleModal .modal-dialog .modal-content .modal-body button {
 body .container #exampleModal .modal-dialog .modal-content .modal-body .rabbit {
   width: 950px;
   height: 950px;
-  background-image: url(../image/rabbit.gif);
+  background-image: url(/image/rabbit.gif);
   background-size: 120%;
   position: absolute;
   left: -37%;
