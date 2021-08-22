@@ -85,7 +85,7 @@ body .container .circle {
 }
 
 body .container .circle .huge {
-  background-image: url("./image/包裝.png");
+  background-image: url("../image/包裝.png");
   background-size: 80%;
   -webkit-filter: drop-shadow(2px 5px 10px #585555);
           filter: drop-shadow(2px 5px 10px #585555);
@@ -114,7 +114,7 @@ body .container .circle .big {
   background-position: center;
   background-size: 90%;
   background-repeat: no-repeat;
-  background-image: url("/image/mooncake.png");
+  background-image: url("../image/mooncake.png");
   display: none;
   position: relative;
 }
@@ -132,7 +132,7 @@ body .container .circle .small {
   background-position: center;
   background-size: 90%;
   background-repeat: no-repeat;
-  background-image: url("/image/mooncake 切開.png");
+  background-image: url("../image/mooncake 切開.png");
   display: none;
 }
 
